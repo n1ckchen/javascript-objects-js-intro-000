@@ -1,15 +1,13 @@
-const playlist = {
-  'Nick Chen': 'True Man'
-
+var playlist = {
+  'Nick Chen': 'Trueman'
 }
 
-function updateplaylist(playlist, artistName, songTitle) {
-  playlist[artistName] = songTitle;
-  return playlist;
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[artistName] = songTitle
+  return playlist
 }
 
 function removeFromPlaylist(playlist, artistName) {
-  delete playlist[artistName];
-  return playlist;
-
+  delete playlist[artistName]
+  return playlist
 }
