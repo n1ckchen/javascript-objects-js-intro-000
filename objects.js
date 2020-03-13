@@ -1,5 +1,5 @@
 const playlist = {
-  artisName: 'songTile'
+  'Nick Chen': 'True Man'
 
 }
 
