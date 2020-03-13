@@ -4,11 +4,12 @@ const playlist = {
 }
 
 function updateplaylist (playlist, artisName, songTile) {
-  return playtlist.artisName = songTile;
-
+  playtlist.artisName = songTile;
+  return playlist;
 }
 
 function removeFromPlaylist(playlist, artistName) {
-  return delete playlist.artistName;
+  delete playlist.artistName;
+  return playlist;
 
 }
